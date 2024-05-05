@@ -73,7 +73,7 @@ html {
 
 
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -96,6 +96,8 @@ body {
 
 }
 
+
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -107,7 +109,7 @@ body {
 }
 
 .hero-discription {
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   margin-bottom: 4.8rem;
 }
@@ -119,9 +121,10 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 2rem;
+  font-weight: bold;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-  margin: 1.5rem;
+  margin: 1rem;
   transition: background-color 0.3s;
 }
 
@@ -129,6 +132,7 @@ body {
 .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
+
 }
 
 .btn--full:hover,
@@ -153,4 +157,38 @@ body {
 
 img {
   width: 100%;
+}
+
+
+.deliverd-meals {
+  /* font-size: 2.5rem; */
+  display: flex;
+  margin-top: 6rem;
+  align-items: center;
+  gap: 1.6rem;
+
+}
+
+.delivered-imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.deliverd-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.5rem;
+  border: 3px solid #fdf2e9;
+}
+
+.deliverd-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
+
+#number {
+  color: darkgreen;
+  font-size: 3.2rem;
 }
