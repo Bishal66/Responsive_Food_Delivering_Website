@@ -256,3 +256,71 @@ img {
   color: darkgreen;
   font-size: 3.2rem;
 }
+
+
+/* .........How It Works Section..........*/
+
+.section-how {
+  max-width: 160rem;
+  padding: 9.6rem 3.2rem;
+  margin: 9.6rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* text-align: center; */
+  align-content: center;
+  gap: 9.6rem;
+
+}
+
+.step-img {
+  width: 45%;
+  height: 100%;
+
+}
+
+.step-img-box {
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.subheading {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 5rem;
+
+}
+
+.paragraph-secondary {
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+  margin-bottom: 2.8rem;
+}
+
+.step-number {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+
+.heading-tertiary {
+  font-size: 3.0rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+
+}
+
+.step-description {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
